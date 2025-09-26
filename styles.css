@@ -1,0 +1,55 @@
+.container{
+box-sizing: border-box;
+position: absolute;
+display: flex;
+flex-direction: column;
+width: 842px;
+height: 649px;
+left: 299px;
+top: 187px;
+background: #E0D4C8;
+padding: 24px;
+}
+
+.logo{
+    font-family: "Akshar", sans-serif;
+    font-size: 12px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+h1{
+    font-family: "Akshar", sans-serif;
+    font-size: 32px;
+    color: #656038;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-self: center;
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
+
+.under-title-text{
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-size: 14px;
+    color: #656038;
+    font-weight: 600;
+    align-self: center;
+}
+
+.button-container{
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 542px;
+}
+
+.mood-btn{
+    width: 164px;
+    height: 38px;
+    border: none;
+    border-radius: 12px;
+    font-family: "Fuzzy Bubbles", sans-serif;
+}
