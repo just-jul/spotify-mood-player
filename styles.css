@@ -1,12 +1,15 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .container{
 box-sizing: border-box;
-position: absolute;
 display: flex;
 flex-direction: column;
 width: 842px;
 height: 649px;
-left: 299px;
-top: 187px;
 background: #E0D4C8;
 padding: 24px;
 }
