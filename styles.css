@@ -39,6 +39,7 @@ h1{
     color: #656038;
     font-weight: 600;
     align-self: center;
+    margin-bottom: 70px;
 }
 
 .button-container{
@@ -55,4 +56,75 @@ h1{
     border: none;
     border-radius: 12px;
     font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 600;
+}
+
+.playlist-container{
+    align-self: center;
+    box-sizing: border-box;
+    background-color: #656038;
+    width: 542px;
+    height: 177px;
+    margin-top: 68px;
+    border-radius: 12px;
+    display: flex;
+    padding: 16px 36px 16px 16px;
+    gap: 16px;
+}
+
+.image-container{
+    width: 150px;
+    height: 146px;
+    background-color: white;
+}
+
+.playlist-title{
+    font-family: "Akshar", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.now-playing-text{
+    font-family: "Fuzzy Bubbles", sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+.play-container{
+    display: flex;
+    height: 25px;
+    width: 100%;
+    align-items: center;
+    gap: 11px;
+}
+
+.playlist-text-container{
+    flex-grow: 1;
+}
+
+.play-buttons-container{
+    display: flex;
+    align-items: center;
+}
+.previous-button, .next-button{
+    width: 20px;
+    height: 20px;
+}
+.play-button{
+    width: 25px;
+    height: 25px;
+}
+
+.line{
+    width: 175px;
+}
+.timer{
+    font-family: "Akshar", sans-serif;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
 }
