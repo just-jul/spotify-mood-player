@@ -57,6 +57,33 @@ h1{
     border-radius: 12px;
     font-family: "Fuzzy Bubbles", sans-serif;
     font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: white;
+}
+
+.icon{
+    font-size: 18px;
+}
+.happy{
+    background-color: #DC9EAB;
+}
+.sad{
+    background-color: #AB9EDC;
+}
+.anxious{
+    background-color: #DCB79E;
+}
+.relaxed{
+    background-color: #9EC4DC;
+}
+.romantic{
+    background-color: #DC9ED0;
+}
+.energetic{
+    background-color: #77CB88;
 }
 
 .playlist-container{
@@ -127,4 +154,14 @@ h1{
     font-size: 12px;
     color: white;
     font-weight: 600;
+}
+
+.footer{
+    font-family: "Akshar", sans-serif;
+    color: #656038;
+    font-weight: 600;
+    font-size: 12px;
+    align-self: flex-end;
+    justify-self: end;
+    margin-top: auto;
 }
